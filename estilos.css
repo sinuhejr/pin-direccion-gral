@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.botones-pin button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  transition: 0.3s;
+}
+
+.botones-pin button.seleccionado {
+  background-color: #007BFF;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+}
+
+#fechaHora {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Checkboxes de área en fila */
+.area-checkbox {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.area-checkbox label {
+  font-weight: bold;
+}
+
+/* Contenedor general de los bloques de oficiales */
+.oficiales-lista {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Cada bloque de área */
+.oficiales-lista > div {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+}
+
+/* Cada oficial */
+.oficial {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: 0.2s;
+}
+.oficial:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.02);
+}
+.oficial.seleccionado {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(40, 167, 69, 0.7);
+}
+
+/* Vehículos */
+.vehiculo {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  transition: 0.2s;
+}
+.vehiculo:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.02);
+}
+.vehiculo.seleccionado {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(255, 193, 7, 0.7);
+}
+
+/* PIN generado */
+#resultadoPin {
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  animation: aparecer 0.3s ease-in-out;
+}
+
+/* Animación de aparición */
+@keyframes aparecer {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .area-checkbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botones-pin button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .oficiales-lista,
+  #resultadoPin {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* Contenedor de vehículos */
+.vehiculos-lista {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.vehiculos-columnas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.vehiculo-columna {
+  flex: 1 1 30%;
+  min-width: 150px;
+}
