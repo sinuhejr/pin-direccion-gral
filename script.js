@@ -170,8 +170,8 @@ function mostrarVehiculos() {
   contenedor.innerHTML = "";
 
   const columnas = [
-    ["Charger AG843A2", "Charger AG845A2", "Charger AG866A2", "Charger AG898A2", "Versa AG340A2"],
-    ["Hummer AG398A3", "Explorer AG051A3"],
+    ["Avenger AAA578E", "Charger AG898A2", "Versa AG347A3"],
+    ["Hummer AG398A3", "Explorer AG051A3", "Ram AA0383E"],
     ["Tacoma BM002AA", "Jeep AAA531A"]
   ];
 
@@ -383,4 +383,5 @@ function copiarPin() {
   // Limpia
   document.body.removeChild(tempTextArea);
 }
+
 
