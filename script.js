@@ -70,8 +70,6 @@ const oficiales = {
   ],
   "Administrativa": [
     { nombre: "Inspector Gral. Guajardo García Francisco de Guadalupe", sexo: "masculino" },
-    { nombre: "Suboficial Viguerías Tiscareño Juan Antonio", sexo: "masculino" },
-    { nombre: "Policía Luevano Vázquez Diana Katia", sexo: "femenino" },
     { nombre: "Policía Sánchez Cardona Jenny Monserrat", sexo: "femenino" }
   ]
 };
@@ -384,6 +382,7 @@ function copiarPin() {
   // Limpia
   document.body.removeChild(tempTextArea);
 }
+
 
 
 
