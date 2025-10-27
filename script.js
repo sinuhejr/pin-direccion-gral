@@ -19,20 +19,23 @@ const oficiales = {
   "Forensia": [
     { nombre: "Subinspector Acosta Gutiérrez José Raymundo", sexo: "masculino" },
     { nombre: "Suboficial Díaz Anguiano Marco Antonio", sexo: "masculino" },
-    { nombre: "Suboficial Lucero González Ricardo Daniel", sexo: "masculino" },
     { nombre: "Policía Rodríguez González Teresa Alejandra", sexo: "femenino" }
+    { nombre: "Suboficial Viguerías Tiscareño Juan Antonio", sexo: "masculino" },
+
   ],
   "Operativos": [
     { nombre: "Comisario Oropeza Cruz Fredy", sexo: "masculino" },
     { nombre: "Oficial Jiménez Rivera Sinuhé", sexo: "masculino" },
-    { nombre: "Suboficial Sandoval Vázquez Alondra", sexo: "femenino" },
     { nombre: "Suboficial Vega Cardona Juan David", sexo: "masculino" },
     { nombre: "Suboficial Zaleta Perea Oliver de Jesús", sexo: "masculino" },
     { nombre: "Suboficial García Alemán Celeste", sexo: "femenino" },
     { nombre: "Suboficial Sánchez Ruiz Wendy Noemí", sexo: "femenino" }
+    { nombre: "Policía Esparza Figueroa Mario Alberto", sexo: "masculino" },
+    { nombre: "Policía Domínguez Reyes Saydi Mayne", sexo: "femenino" },
   ],
   "Prevención": [
     { nombre: "Subinspector Ontiveros Susana", sexo: "femenino" },
+    { nombre: "Suboficial Sandoval Vázquez Alondra", sexo: "femenino" },
     { nombre: "Oficial Rodríguez García Uriel Gumaro", sexo: "masculino" },
     { nombre: "Suboficial Cruz Lucero Yesica", sexo: "femenino" },
     { nombre: "Suboficial Macías Vargas Ruth Noemí", sexo: "femenino" },
@@ -46,8 +49,6 @@ const oficiales = {
     { nombre: "Policía Vargas Vázquez Carlos Javier", sexo: "masculino" },
     { nombre: "Policía Bolaños González Elena", sexo: "femenino" },
     { nombre: "Policía Díaz Gómez Edgar", sexo: "masculino" },
-    { nombre: "Policía Domínguez Reyes Saydi Mayne", sexo: "femenino" },
-    { nombre: "Policía Esparza Figueroa Mario Alberto", sexo: "masculino" },
     { nombre: "Policía López Gutiérrez Juana Yulissa", sexo: "femenino" },
     { nombre: "Policía Martínez Martínez Jennifer Danae", sexo: "femenino" },
     { nombre: "Policía Mejía Montoya Natalia Elizabeth", sexo: "femenino" },
@@ -383,5 +384,6 @@ function copiarPin() {
   // Limpia
   document.body.removeChild(tempTextArea);
 }
+
 
 
