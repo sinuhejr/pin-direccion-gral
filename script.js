@@ -19,7 +19,7 @@ const oficiales = {
   "Forensia": [
     { nombre: "Subinspector Acosta Gutiérrez José Raymundo", sexo: "masculino" },
     { nombre: "Suboficial Díaz Anguiano Marco Antonio", sexo: "masculino" },
-    { nombre: "Policía Rodríguez González Teresa Alejandra", sexo: "femenino" }
+    { nombre: "Policía Rodríguez González Teresa Alejandra", sexo: "femenino" },
     { nombre: "Suboficial Viguerías Tiscareño Juan Antonio", sexo: "masculino" },
 
   ],
@@ -29,7 +29,7 @@ const oficiales = {
     { nombre: "Suboficial Vega Cardona Juan David", sexo: "masculino" },
     { nombre: "Suboficial Zaleta Perea Oliver de Jesús", sexo: "masculino" },
     { nombre: "Suboficial García Alemán Celeste", sexo: "femenino" },
-    { nombre: "Suboficial Sánchez Ruiz Wendy Noemí", sexo: "femenino" }
+    { nombre: "Suboficial Sánchez Ruiz Wendy Noemí", sexo: "femenino" },
     { nombre: "Policía Esparza Figueroa Mario Alberto", sexo: "masculino" },
     { nombre: "Policía Domínguez Reyes Saydi Mayne", sexo: "femenino" },
   ],
@@ -382,6 +382,7 @@ function copiarPin() {
   // Limpia
   document.body.removeChild(tempTextArea);
 }
+
 
 
 
