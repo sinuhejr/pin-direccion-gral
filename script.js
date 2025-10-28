@@ -171,7 +171,7 @@ function mostrarVehiculos() {
   const columnas = [
     ["Avenger AAA578E", "Charger AG898A2", "Versa AG347A3"],
     ["Hummer AG398A3", "Explorer AG051A3", "Ram AA0383E"],
-    ["Tacoma BM002AA", "Jeep AAA531A"]
+    ["Tacoma BM002AA", "Jeep AAA506E"]
   ];
 
   const columnasWrapper = document.createElement("div");
@@ -382,6 +382,7 @@ function copiarPin() {
   // Limpia
   document.body.removeChild(tempTextArea);
 }
+
 
 
 
